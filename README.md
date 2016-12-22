@@ -11,6 +11,6 @@ Finally, it was fustrating that computer screens did such a poor job with the co
 # Technically
 To start, this design is technology neutral. I've done client side experiments with Flex, Backbone, Aurelia, Ember, React and Vue and server side experiments with Python, Ruby, C#, Javascript and Elixir as well as with a variety of databases. These experiments have helped me see a lot of technical trade offs and strengths and weaknesses in these things, but the focus is still always on the higher level concepts which can be implemented technically in any of these things or whatever new thing comes along that is worth experimenting with. At some point there is a core set of related models, ui concepts and flows that can probably be represented with Harel statecharts regardless of language, everything else is agnostech.
 
-The goal was to focus on the high level design concepts and keep moving them along so that whatever I'm using technically when the design is complete, the design will be good. At this point I'm using Postgres, Elixir and Vue for my experiments, but that could change at any time.
+The goal was to focus on the high level design concepts and keep moving them along so that whatever I'm using technically when the design is complete, the design will be good. At this point I'm using Postgres, Elixir and Vue for my experiments, but that could change at any time. They key will be fleshing out the right api so that it doesn't matter what client, what server or what datastore folk want to use. 
 
 
